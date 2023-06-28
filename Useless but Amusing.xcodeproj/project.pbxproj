@@ -11,27 +11,9 @@
 		90F4A0C42A4B72E80071ABE9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F4A0C32A4B72E80071ABE9 /* ContentView.swift */; };
 		90F4A0C62A4B72E80071ABE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90F4A0C52A4B72E80071ABE9 /* Assets.xcassets */; };
 		90F4A0C92A4B72E80071ABE9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90F4A0C82A4B72E80071ABE9 /* Preview Assets.xcassets */; };
-		90F4A0D32A4B72E80071ABE9 /* Useless_but_AmusingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F4A0D22A4B72E80071ABE9 /* Useless_but_AmusingTests.swift */; };
-		90F4A0DD2A4B72E80071ABE9 /* Useless_but_AmusingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F4A0DC2A4B72E80071ABE9 /* Useless_but_AmusingUITests.swift */; };
-		90F4A0DF2A4B72E80071ABE9 /* Useless_but_AmusingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F4A0DE2A4B72E80071ABE9 /* Useless_but_AmusingUITestsLaunchTests.swift */; };
+		F308FF2D2A4BB1EE005FA293 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F308FF2C2A4BB1EE005FA293 /* CollectionView.swift */; };
+		F308FF2F2A4BB1F5005FA293 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F308FF2E2A4BB1F5005FA293 /* MapView.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		90F4A0CF2A4B72E80071ABE9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 90F4A0B62A4B72E80071ABE9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 90F4A0BD2A4B72E80071ABE9;
-			remoteInfo = "Useless but Amusing";
-		};
-		90F4A0D92A4B72E80071ABE9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 90F4A0B62A4B72E80071ABE9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 90F4A0BD2A4B72E80071ABE9;
-			remoteInfo = "Useless but Amusing";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		90F4A0BE2A4B72E80071ABE9 /* Useless but Amusing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Useless but Amusing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,29 +21,13 @@
 		90F4A0C32A4B72E80071ABE9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		90F4A0C52A4B72E80071ABE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90F4A0C82A4B72E80071ABE9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		90F4A0CE2A4B72E80071ABE9 /* Useless but AmusingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Useless but AmusingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		90F4A0D22A4B72E80071ABE9 /* Useless_but_AmusingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Useless_but_AmusingTests.swift; sourceTree = "<group>"; };
-		90F4A0D82A4B72E80071ABE9 /* Useless but AmusingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Useless but AmusingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		90F4A0DC2A4B72E80071ABE9 /* Useless_but_AmusingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Useless_but_AmusingUITests.swift; sourceTree = "<group>"; };
-		90F4A0DE2A4B72E80071ABE9 /* Useless_but_AmusingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Useless_but_AmusingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F308FF2C2A4BB1EE005FA293 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		F308FF2E2A4BB1F5005FA293 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		F308FF312A4BB707005FA293 /* Useless-but-Amusing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Useless-but-Amusing-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		90F4A0BB2A4B72E80071ABE9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		90F4A0CB2A4B72E80071ABE9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		90F4A0D52A4B72E80071ABE9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,8 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				90F4A0C02A4B72E80071ABE9 /* Useless but Amusing */,
-				90F4A0D12A4B72E80071ABE9 /* Useless but AmusingTests */,
-				90F4A0DB2A4B72E80071ABE9 /* Useless but AmusingUITests */,
 				90F4A0BF2A4B72E80071ABE9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,8 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				90F4A0BE2A4B72E80071ABE9 /* Useless but Amusing.app */,
-				90F4A0CE2A4B72E80071ABE9 /* Useless but AmusingTests.xctest */,
-				90F4A0D82A4B72E80071ABE9 /* Useless but AmusingUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,9 +56,10 @@
 		90F4A0C02A4B72E80071ABE9 /* Useless but Amusing */ = {
 			isa = PBXGroup;
 			children = (
-				90F4A0C12A4B72E80071ABE9 /* Useless_but_AmusingApp.swift */,
-				90F4A0C32A4B72E80071ABE9 /* ContentView.swift */,
-				90F4A0C52A4B72E80071ABE9 /* Assets.xcassets */,
+				F308FF312A4BB707005FA293 /* Useless-but-Amusing-Info.plist */,
+				F308FF272A4BB176005FA293 /* Application */,
+				F308FF302A4BB205005FA293 /* Managers */,
+				F308FF282A4BB184005FA293 /* UI */,
 				90F4A0C72A4B72E80071ABE9 /* Preview Content */,
 			);
 			path = "Useless but Amusing";
@@ -110,21 +73,54 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		90F4A0D12A4B72E80071ABE9 /* Useless but AmusingTests */ = {
+		F308FF272A4BB176005FA293 /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				90F4A0D22A4B72E80071ABE9 /* Useless_but_AmusingTests.swift */,
+				90F4A0C12A4B72E80071ABE9 /* Useless_but_AmusingApp.swift */,
+				90F4A0C32A4B72E80071ABE9 /* ContentView.swift */,
+				90F4A0C52A4B72E80071ABE9 /* Assets.xcassets */,
 			);
-			path = "Useless but AmusingTests";
+			path = Application;
 			sourceTree = "<group>";
 		};
-		90F4A0DB2A4B72E80071ABE9 /* Useless but AmusingUITests */ = {
+		F308FF282A4BB184005FA293 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				90F4A0DC2A4B72E80071ABE9 /* Useless_but_AmusingUITests.swift */,
-				90F4A0DE2A4B72E80071ABE9 /* Useless_but_AmusingUITestsLaunchTests.swift */,
+				F308FF292A4BB1A6005FA293 /* Main */,
 			);
-			path = "Useless but AmusingUITests";
+			path = UI;
+			sourceTree = "<group>";
+		};
+		F308FF292A4BB1A6005FA293 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F308FF2A2A4BB1AC005FA293 /* Collection */,
+				F308FF2B2A4BB1BA005FA293 /* Map */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F308FF2A2A4BB1AC005FA293 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				F308FF2C2A4BB1EE005FA293 /* CollectionView.swift */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		F308FF2B2A4BB1BA005FA293 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				F308FF2E2A4BB1F5005FA293 /* MapView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		F308FF302A4BB205005FA293 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,42 +143,6 @@
 			productReference = 90F4A0BE2A4B72E80071ABE9 /* Useless but Amusing.app */;
 			productType = "com.apple.product-type.application";
 		};
-		90F4A0CD2A4B72E80071ABE9 /* Useless but AmusingTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 90F4A0E52A4B72E80071ABE9 /* Build configuration list for PBXNativeTarget "Useless but AmusingTests" */;
-			buildPhases = (
-				90F4A0CA2A4B72E80071ABE9 /* Sources */,
-				90F4A0CB2A4B72E80071ABE9 /* Frameworks */,
-				90F4A0CC2A4B72E80071ABE9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				90F4A0D02A4B72E80071ABE9 /* PBXTargetDependency */,
-			);
-			name = "Useless but AmusingTests";
-			productName = "Useless but AmusingTests";
-			productReference = 90F4A0CE2A4B72E80071ABE9 /* Useless but AmusingTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		90F4A0D72A4B72E80071ABE9 /* Useless but AmusingUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 90F4A0E82A4B72E80071ABE9 /* Build configuration list for PBXNativeTarget "Useless but AmusingUITests" */;
-			buildPhases = (
-				90F4A0D42A4B72E80071ABE9 /* Sources */,
-				90F4A0D52A4B72E80071ABE9 /* Frameworks */,
-				90F4A0D62A4B72E80071ABE9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				90F4A0DA2A4B72E80071ABE9 /* PBXTargetDependency */,
-			);
-			name = "Useless but AmusingUITests";
-			productName = "Useless but AmusingUITests";
-			productReference = 90F4A0D82A4B72E80071ABE9 /* Useless but AmusingUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,14 +155,6 @@
 				TargetAttributes = {
 					90F4A0BD2A4B72E80071ABE9 = {
 						CreatedOnToolsVersion = 14.2;
-					};
-					90F4A0CD2A4B72E80071ABE9 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 90F4A0BD2A4B72E80071ABE9;
-					};
-					90F4A0D72A4B72E80071ABE9 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 90F4A0BD2A4B72E80071ABE9;
 					};
 				};
 			};
@@ -220,8 +172,6 @@
 			projectRoot = "";
 			targets = (
 				90F4A0BD2A4B72E80071ABE9 /* Useless but Amusing */,
-				90F4A0CD2A4B72E80071ABE9 /* Useless but AmusingTests */,
-				90F4A0D72A4B72E80071ABE9 /* Useless but AmusingUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -236,20 +186,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90F4A0CC2A4B72E80071ABE9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		90F4A0D62A4B72E80071ABE9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -257,42 +193,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F308FF2D2A4BB1EE005FA293 /* CollectionView.swift in Sources */,
+				F308FF2F2A4BB1F5005FA293 /* MapView.swift in Sources */,
 				90F4A0C42A4B72E80071ABE9 /* ContentView.swift in Sources */,
 				90F4A0C22A4B72E80071ABE9 /* Useless_but_AmusingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90F4A0CA2A4B72E80071ABE9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				90F4A0D32A4B72E80071ABE9 /* Useless_but_AmusingTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		90F4A0D42A4B72E80071ABE9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				90F4A0DF2A4B72E80071ABE9 /* Useless_but_AmusingUITestsLaunchTests.swift in Sources */,
-				90F4A0DD2A4B72E80071ABE9 /* Useless_but_AmusingUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		90F4A0D02A4B72E80071ABE9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 90F4A0BD2A4B72E80071ABE9 /* Useless but Amusing */;
-			targetProxy = 90F4A0CF2A4B72E80071ABE9 /* PBXContainerItemProxy */;
-		};
-		90F4A0DA2A4B72E80071ABE9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 90F4A0BD2A4B72E80071ABE9 /* Useless but Amusing */;
-			targetProxy = 90F4A0D92A4B72E80071ABE9 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		90F4A0E02A4B72E80071ABE9 /* Debug */ = {
@@ -419,11 +327,15 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Useless but Amusing/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Useless-but-Amusing-Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "$(PRODUCT_NAME) needs to access your location to display it on the map.";
+				INFOPLIST_KEY_NSLocationUsageDescription = "$(PRODUCT_NAME) needs to access your location to display it on the map.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "$(PRODUCT_NAME) needs to access your location to display it on the map.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -431,9 +343,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.raenadya.Useless-but-Amusing";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -447,11 +362,15 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Useless but Amusing/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Useless-but-Amusing-Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "$(PRODUCT_NAME) needs to access your location to display it on the map.";
+				INFOPLIST_KEY_NSLocationUsageDescription = "$(PRODUCT_NAME) needs to access your location to display it on the map.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "$(PRODUCT_NAME) needs to access your location to display it on the map.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,81 +378,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.raenadya.Useless-but-Amusing";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		90F4A0E62A4B72E80071ABE9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.raenadya.Useless-but-AmusingTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Useless but Amusing.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Useless but Amusing";
-			};
-			name = Debug;
-		};
-		90F4A0E72A4B72E80071ABE9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.raenadya.Useless-but-AmusingTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Useless but Amusing.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Useless but Amusing";
-			};
-			name = Release;
-		};
-		90F4A0E92A4B72E80071ABE9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.raenadya.Useless-but-AmusingUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Useless but Amusing";
-			};
-			name = Debug;
-		};
-		90F4A0EA2A4B72E80071ABE9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.raenadya.Useless-but-AmusingUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Useless but Amusing";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -554,24 +404,6 @@
 			buildConfigurations = (
 				90F4A0E32A4B72E80071ABE9 /* Debug */,
 				90F4A0E42A4B72E80071ABE9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		90F4A0E52A4B72E80071ABE9 /* Build configuration list for PBXNativeTarget "Useless but AmusingTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				90F4A0E62A4B72E80071ABE9 /* Debug */,
-				90F4A0E72A4B72E80071ABE9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		90F4A0E82A4B72E80071ABE9 /* Build configuration list for PBXNativeTarget "Useless but AmusingUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				90F4A0E92A4B72E80071ABE9 /* Debug */,
-				90F4A0EA2A4B72E80071ABE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
