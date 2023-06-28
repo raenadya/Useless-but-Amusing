@@ -13,6 +13,14 @@
 		90F4A0C92A4B72E80071ABE9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90F4A0C82A4B72E80071ABE9 /* Preview Assets.xcassets */; };
 		F308FF2D2A4BB1EE005FA293 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F308FF2C2A4BB1EE005FA293 /* CollectionView.swift */; };
 		F308FF2F2A4BB1F5005FA293 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F308FF2E2A4BB1F5005FA293 /* MapView.swift */; };
+		F31040D22A4C640B001CDFCE /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31040D12A4C640B001CDFCE /* LocationModel.swift */; };
+		F31040D42A4C6E82001CDFCE /* onLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31040D32A4C6E82001CDFCE /* onLoad.swift */; };
+		F3316CFC2A4BE58500456452 /* MapAnnotationPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3316CFB2A4BE58500456452 /* MapAnnotationPoint.swift */; };
+		F3316CFF2A4C083500456452 /* CollectableButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3316CFE2A4C083500456452 /* CollectableButtonView.swift */; };
+		F3316D022A4C087F00456452 /* CollectableButtonButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3316D012A4C087F00456452 /* CollectableButtonButtonStyle.swift */; };
+		F3316D042A4C091F00456452 /* AddButtonPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3316D032A4C091F00456452 /* AddButtonPreview.swift */; };
+		F3316D062A4C12EB00456452 /* CollectableButtonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3316D052A4C12EB00456452 /* CollectableButtonManager.swift */; };
+		F35B944C2A4C13F8008C7269 /* ColorCodability.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35B944B2A4C13F8008C7269 /* ColorCodability.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		F308FF2C2A4BB1EE005FA293 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
 		F308FF2E2A4BB1F5005FA293 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		F308FF312A4BB707005FA293 /* Useless-but-Amusing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Useless-but-Amusing-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F31040D12A4C640B001CDFCE /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		F31040D32A4C6E82001CDFCE /* onLoad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onLoad.swift; sourceTree = "<group>"; };
+		F3316CFB2A4BE58500456452 /* MapAnnotationPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationPoint.swift; sourceTree = "<group>"; };
+		F3316CFE2A4C083500456452 /* CollectableButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectableButtonView.swift; sourceTree = "<group>"; };
+		F3316D012A4C087F00456452 /* CollectableButtonButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectableButtonButtonStyle.swift; sourceTree = "<group>"; };
+		F3316D032A4C091F00456452 /* AddButtonPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButtonPreview.swift; sourceTree = "<group>"; };
+		F3316D052A4C12EB00456452 /* CollectableButtonManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectableButtonManager.swift; sourceTree = "<group>"; };
+		F35B944B2A4C13F8008C7269 /* ColorCodability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCodability.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +74,7 @@
 			children = (
 				F308FF312A4BB707005FA293 /* Useless-but-Amusing-Info.plist */,
 				F308FF272A4BB176005FA293 /* Application */,
-				F308FF302A4BB205005FA293 /* Managers */,
+				F308FF302A4BB205005FA293 /* Models and Managers */,
 				F308FF282A4BB184005FA293 /* UI */,
 				90F4A0C72A4B72E80071ABE9 /* Preview Content */,
 			);
@@ -86,6 +102,7 @@
 		F308FF282A4BB184005FA293 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				F3316D002A4C087100456452 /* Extensions */,
 				F308FF292A4BB1A6005FA293 /* Main */,
 			);
 			path = UI;
@@ -94,6 +111,7 @@
 		F308FF292A4BB1A6005FA293 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				F3316CFD2A4C082600456452 /* Shared Views */,
 				F308FF2A2A4BB1AC005FA293 /* Collection */,
 				F308FF2B2A4BB1BA005FA293 /* Map */,
 			);
@@ -112,15 +130,37 @@
 			isa = PBXGroup;
 			children = (
 				F308FF2E2A4BB1F5005FA293 /* MapView.swift */,
+				F3316CFB2A4BE58500456452 /* MapAnnotationPoint.swift */,
+				F3316D032A4C091F00456452 /* AddButtonPreview.swift */,
 			);
 			path = Map;
 			sourceTree = "<group>";
 		};
-		F308FF302A4BB205005FA293 /* Managers */ = {
+		F308FF302A4BB205005FA293 /* Models and Managers */ = {
 			isa = PBXGroup;
 			children = (
+				F3316D052A4C12EB00456452 /* CollectableButtonManager.swift */,
+				F31040D12A4C640B001CDFCE /* LocationModel.swift */,
 			);
-			path = Managers;
+			path = "Models and Managers";
+			sourceTree = "<group>";
+		};
+		F3316CFD2A4C082600456452 /* Shared Views */ = {
+			isa = PBXGroup;
+			children = (
+				F3316CFE2A4C083500456452 /* CollectableButtonView.swift */,
+			);
+			path = "Shared Views";
+			sourceTree = "<group>";
+		};
+		F3316D002A4C087100456452 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F3316D012A4C087F00456452 /* CollectableButtonButtonStyle.swift */,
+				F35B944B2A4C13F8008C7269 /* ColorCodability.swift */,
+				F31040D32A4C6E82001CDFCE /* onLoad.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,10 +233,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3316D042A4C091F00456452 /* AddButtonPreview.swift in Sources */,
 				F308FF2D2A4BB1EE005FA293 /* CollectionView.swift in Sources */,
+				F3316D022A4C087F00456452 /* CollectableButtonButtonStyle.swift in Sources */,
+				F3316D062A4C12EB00456452 /* CollectableButtonManager.swift in Sources */,
+				F31040D22A4C640B001CDFCE /* LocationModel.swift in Sources */,
+				F3316CFF2A4C083500456452 /* CollectableButtonView.swift in Sources */,
 				F308FF2F2A4BB1F5005FA293 /* MapView.swift in Sources */,
+				F3316CFC2A4BE58500456452 /* MapAnnotationPoint.swift in Sources */,
+				F35B944C2A4C13F8008C7269 /* ColorCodability.swift in Sources */,
 				90F4A0C42A4B72E80071ABE9 /* ContentView.swift in Sources */,
 				90F4A0C22A4B72E80071ABE9 /* Useless_but_AmusingApp.swift in Sources */,
+				F31040D42A4C6E82001CDFCE /* onLoad.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,15 +370,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Useless but Amusing/Preview Content\"";
+				DEVELOPMENT_TEAM = DBBLGF84W3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Useless-but-Amusing-Info.plist";
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "$(PRODUCT_NAME) needs to access your location to display it on the map.";
-				INFOPLIST_KEY_NSLocationUsageDescription = "$(PRODUCT_NAME) needs to access your location to display it on the map.";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "$(PRODUCT_NAME) needs to access your location to display it on the map.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Useless but Amusing needs to access your location to display it on the map.";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Useless but Amusing needs to access your location to display it on the map.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Useless but Amusing needs to access your location to display it on the map.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -341,8 +391,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.raenadya.Useless-but-Amusing";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cheesetan.VisionApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -360,12 +411,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Useless but Amusing/Preview Content\"";
+				DEVELOPMENT_TEAM = DBBLGF84W3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Useless-but-Amusing-Info.plist";
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "$(PRODUCT_NAME) needs to access your location to display it on the map.";
-				INFOPLIST_KEY_NSLocationUsageDescription = "$(PRODUCT_NAME) needs to access your location to display it on the map.";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "$(PRODUCT_NAME) needs to access your location to display it on the map.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Useless but Amusing needs to access your location to display it on the map.";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Useless but Amusing needs to access your location to display it on the map.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Useless but Amusing needs to access your location to display it on the map.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -376,7 +428,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.raenadya.Useless-but-Amusing";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cheesetan.VisionApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;

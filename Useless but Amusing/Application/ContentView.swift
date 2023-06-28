@@ -1,13 +1,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    @AppStorage("tabSelection") var tabSelection: Int = 0
+    
     var body: some View {
-        TabView() {
+        TabView(selection: $tabSelection) {
             CollectionView()
+                .tag(0)
                 .tabItem {
                     Label("Collection", systemImage: "square.grid.2x2.fill")
                 }
             MapView()
+                .tag(1)
                 .tabItem {
                     Label("Map", systemImage: "map.fill")
                 }
