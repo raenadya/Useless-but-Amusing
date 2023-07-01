@@ -8,9 +8,16 @@
 import SwiftUI
 
 struct CollectionView: View {
+    @ObservedObject var buttonManager: CollectableButtonManager = .shared
+    
     var body: some View {
-        VStack {
-            Text("CollectionView")
+        NavigationView {
+            List(buttonManager.collectableButtons) { button in
+                NavigationLink(destination: CollectableButtonView(collectableButton: button)) {
+                    Text("button")
+                }
+            }
+            .navigationTitle("Button Collection")
         }
     }
 }
