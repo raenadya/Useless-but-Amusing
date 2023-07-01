@@ -69,11 +69,19 @@ struct MapView: View {
         return CollectableButton(color: Color(red: Double.random(in: 0...255) / 255,
                                               green: Double.random(in: 0...255) / 255,
                                               blue: Double.random(in: 0...255) / 255),
-                                 cornerRadius: Double.random(in: 0...50),
+                                 cornerRadius: Double.random(in: 0...100),
                                  scaleEffect: CGFloat(Double.random(in: 0.5...2)),
                                  offsetX: Double.random(in: -50...50),
                                  offsetY: Double.random(in: -50...50),
-                                 rotationAngle: Double.random(in: -360...360))
+                                 rotationAngle: Double.random(in: -360...360),
+                                 pictureName: "image-\(Int.random(in: 1...28))",
+                                 title: generateRandomWord())
+    }
+    
+    func generateRandomWord() -> String {
+        let wordsArray = ["ben", "apples", "trunk", "charger", "joker", "lightning", "mush", "flora", "george", "gear", "rap", "snap", "ogre", "trackpad", "soup", "soda", "supercalifragilisticexpialidocious", "sandwich", "ceiling", "ginger", "garlic", "pen", "teacher", "pan", "kfc", "potato", "dog", "capacitor", "faith", "divider"]
+        
+        return wordsArray[Int.random(in: 0..<wordsArray.count)]
     }
 }
 

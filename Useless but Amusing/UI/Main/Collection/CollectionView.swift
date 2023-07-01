@@ -11,13 +11,23 @@ struct CollectionView: View {
     @ObservedObject var buttonManager: CollectableButtonManager = .shared
     
     var body: some View {
-        NavigationView {
-            List(buttonManager.collectableButtons) { button in
-                NavigationLink(destination: CollectableButtonView(collectableButton: button)) {
-                    Text("button")
+        NavigationStack {
+            List {
+                ForEach(buttonManager.collectableButtons) { button in
+                    NavigationLink(destination: CollectableButtonView(collectableButton: button)) {
+                        Text(button.title)
+                    }
+                }
+                .onDelete { indexSet in
+                    buttonManager.collectableButtons.remove(atOffsets: indexSet)
                 }
             }
             .navigationTitle("Button Collection")
+            .toolbar {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    EditButton()
+                }
+            }
         }
     }
 }

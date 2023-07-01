@@ -21,6 +21,10 @@ struct CollectableButton: Codable, Identifiable, Equatable {
     var offsetY: CGFloat
     
     var rotationAngle: Double
+    
+    var pictureName: String
+    
+    var title: String
 }
 
 class CollectableButtonManager: ObservableObject {

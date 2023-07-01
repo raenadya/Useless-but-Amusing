@@ -44,7 +44,7 @@ struct AddButtonPreview: View {
                 }
                 .padding(.bottom)
             }
-            .navigationTitle("Preview")
+            .navigationTitle(annotation.collectableButton.title)
             .navigationBarTitleDisplayMode(.inline)
         }
     }

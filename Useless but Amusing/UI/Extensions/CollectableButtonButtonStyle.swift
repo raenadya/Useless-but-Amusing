@@ -25,8 +25,8 @@ struct CollectableButtonButtonStyle: ButtonStyle {
     func makeBody(configuration: Configuration) -> some View {
             configuration.label
                 .padding()
-                .background(backgroundColor)
-                .cornerRadius(cornerRadius)
+//                .background(backgroundColor)
+//                .cornerRadius(cornerRadius)
                 .scaleEffect(configuration.isPressed ? scaleEffect : 1)
                 .offset(x: configuration.isPressed ? offsetX : 1, y: configuration.isPressed ? offsetY : 1)
                 .rotationEffect(configuration.isPressed ? Angle(degrees: rotationAngle) : Angle(degrees: 0))

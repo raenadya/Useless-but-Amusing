@@ -16,9 +16,12 @@ struct CollectableButtonView: View {
             Button {
                 
             } label: {
-                Text("Press and hold!")
+                Image(collectableButton.pictureName)
+                    .resizable()
+                    .scaledToFill()
+                    .frame(width: UIScreen.main.bounds.width * 3/4, height: UIScreen.main.bounds.height * 1/3)
+                    .cornerRadius(collectableButton.cornerRadius)
             }
-            .frame(width: UIScreen.main.bounds.width * 3/4)
             .buttonStyle(CollectableButtonButtonStyle(backgroundColor: collectableButton.color,
                                                       scaleEffect: collectableButton.scaleEffect,
                                                       cornerRadius: collectableButton.cornerRadius,
